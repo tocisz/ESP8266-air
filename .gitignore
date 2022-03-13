@@ -1,0 +1,12 @@
+filled
+filled3
+filled4
+*.zip
+*.net
+*.sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+fp-lib-table
+*.lib
+*.obj
+*.wrl
