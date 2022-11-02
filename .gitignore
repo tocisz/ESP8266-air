@@ -7,6 +7,6 @@ filled4
 *.kicad_pcb-bak
 fp-info-cache
 fp-lib-table
-*.lib
 *.obj
 *.wrl
+*.bck

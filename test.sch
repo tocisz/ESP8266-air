@@ -596,7 +596,7 @@ P 2850 3950
 F 0 "Q3" H 3041 3996 50  0000 L CNN
 F 1 "BC547" H 3041 3905 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3050 3875 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2850 3950 50  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BC550-D.pdf" H 2850 3950 50  0001 L CNN
 	1    2850 3950
 	-1   0    0    -1  
 $EndComp
@@ -703,7 +703,7 @@ U 1 1 5E35BD26
 P 1600 1300
 F 0 "U2" H 1600 1542 50  0000 C CNN
 F 1 "LD1117S33TR_SOT223" H 1600 1451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 1600 1500 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1600 1500 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 1700 1050 50  0001 C CNN
 	1    1600 1300
 	1    0    0    -1  
@@ -736,8 +736,8 @@ Wire Wire Line
 	2550 2350 2550 1850
 Wire Wire Line
 	2550 1850 1950 1850
-Wire Bus Line
-	7300 3600 8850 3600
 Connection ~ 2550 2350
 Connection ~ 1950 1850
+Wire Bus Line
+	7300 3600 8850 3600
 $EndSCHEMATC
